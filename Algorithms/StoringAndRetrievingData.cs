@@ -8,6 +8,14 @@ namespace Algorithms
 {
     internal class StoringAndRetrievingData
     {
+        // По "схеме обучения" Microsof.Lern: Работа с данными
+        public static void DataTypes()
+        {
+            Console.WriteLine("Существуют две основные категории типов данных: типы значений и ссылочные типы.");
+            Console.WriteLine("Простые типы значений — это набор предопределенных типов, которые предоставляются в C# в виде ключевых слов.");
+
+        }
+
         // По "схеме обучения" Microsof.Lern: Хранение и извлечение данных с использованием значений, представленных литералами и переменными
         public static void StorAndRetriev()
         {
@@ -24,9 +32,12 @@ namespace Algorithms
 
         public static void LiteralSuffixes()
         {
+            Console.WriteLine("Литеральные суффиксы");
             Console.WriteLine("cуффикс\tтип");
             Console.WriteLine("M/m\tdecimal");
             Console.WriteLine("F/f\tfloat");
+            Console.WriteLine();
+            Console.WriteLine("U/u\tuint\nL/l\tlong\nUL/ul/LU\tulong");
         }
     }
 }
