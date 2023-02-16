@@ -10,11 +10,9 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            byte razdel;
-            Console.WriteLine("Это обучаяща программа по язаку С#");
-            Console.WriteLine("Выберите раздел: ");
-            StoringAndRetrievingData.StorAndRetriev();
-            StoringAndRetrievingData.LiteralSuffixes();
+            StoringAndRetrievingData.Beginer();
         }
+        
+    
     }
 }
